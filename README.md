@@ -80,8 +80,11 @@ pontiac = cars.loc[cars['Model']=='Pontiac Firebird', ['Model','mpg','hp','wt']]
 pontiac
 ```
 
+### C. MULTI-MODEL SUBSETTING 
 
-###Required check: 
+Create a DataFrame named selected cars containing only the records for three models: Datsun 710, Lotus Europa, and Ferrari Dino. For these records, retain only Model, mpg, cyl, hp, and gear. Select the rows by their model values rather than by row numbers. Display selected cars and its shape.
+
+### Required check: 
 The final DataFrame must contain exactly three rows and five columns.
 
  `Explanation:` 
